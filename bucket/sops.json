@@ -6,8 +6,8 @@
     "depends": "gpg",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getsops/sops/releases/download/v3.10.0/sops-v3.10.0.exe#/sops.exe",
-            "hash": "73acb8ceea09418fcfc06e73d21040a8ac77544a7c24489a720db072adedb2d8"
+            "url": "https://github.com/getsops/sops/releases/download/v3.10.0/sops-v3.10.0.amd64.exe#/sops.exe",
+            "hash": "4532dbc8fe8fc02dbc308404da41d029cd2da0a51eadcd6c89ae4ffbac544141"
         }
     },
     "bin": "sops.exe",
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/getsops/sops/releases/download/v$version/sops-v$version.exe#/sops.exe"
+                "url": "https://github.com/getsops/sops/releases/download/v$version/sops-v$version.amd64.exe#/sops.exe"
             }
         }
     }
